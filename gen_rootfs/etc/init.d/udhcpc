@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# /etc/init.d/udhcpc
+#
+
+IFACE=eth0
+
+case "$1" in
+    start)
+	if [ ! /sbin/ifconfig $IFACE 2>/dev/null ]; then
+			echo "No $IFACE interface found"
+	fi
+	if [ -e /sbin/udhcpc ]; then
+	    ip link set $IFACE up
+	    /sbin/udhcpc -i $IFACE -s /etc/udhcp/simple.script
+	else
+	    echo "No DHCP client found"
+	fi
+
+        ;;
+    stop)
+	killall -USR2 udhcpc
+	;;
+esac

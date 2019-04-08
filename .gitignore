@@ -1,0 +1,7 @@
+
+# OPTEE specific
+
+/out/
+/out-br/
+/.repo/*
+/toolchains/
