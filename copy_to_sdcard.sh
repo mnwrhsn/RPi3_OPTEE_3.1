@@ -8,7 +8,8 @@
 DEV_BOOT="/dev/sdb1"
 DEV_ROOTFS="/dev/sdb2"
 
-OPTEE_ROOT="/home/mhasan/workspace/rpi_optee310"
+# OPTEE_ROOT="/home/mhasan/workspace/rpi_optee310"
+OPTEE_ROOT="/home/mhasan/workspace/rt_security_io_tz"
 
 # mount filesystem
 
