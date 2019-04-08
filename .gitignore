@@ -5,6 +5,5 @@
 /out-br/
 /.repo/*
 /toolchains/
-/get_rootfs/
-/get_rootfs/rootfs-rpi3.cpio
+/gen_rootfs/
 /module_output/
