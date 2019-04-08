@@ -6,4 +6,5 @@
 /.repo/*
 /toolchains/
 /get_rootfs/
+/get_rootfs/rootfs-rpi3.cpio
 /module_output/
