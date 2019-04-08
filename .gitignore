@@ -5,3 +5,5 @@
 /out-br/
 /.repo/*
 /toolchains/
+/get_rootfs/
+/module_output/
