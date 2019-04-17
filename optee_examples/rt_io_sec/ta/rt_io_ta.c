@@ -28,7 +28,7 @@
 #include <tee_internal_api.h>
 #include <tee_internal_api_extensions.h>
 
-#include <hello_world_ta.h>
+#include <rt_io_ta.h>
 
 /*
  * Called when the instance of the TA is created. This is the first call in

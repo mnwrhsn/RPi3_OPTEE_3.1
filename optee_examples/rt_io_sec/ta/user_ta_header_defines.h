@@ -33,7 +33,7 @@
 #define USER_TA_HEADER_DEFINES_H
 
 /* To get the TA UUID definition */
-#include <hello_world_ta.h>
+#include <rt_io_ta.h>
 
 #define TA_UUID				TA_HELLO_WORLD_UUID
 
@@ -52,7 +52,7 @@
 /* Extra properties (give a version id and a string name) */
 #define TA_CURRENT_TA_EXT_PROPERTIES \
     { "gp.ta.description", USER_TA_PROP_TYPE_STRING, \
-        "Example of OP-TEE Hello World Trusted Application" }, \
+        "RT IO Security Trusted Application" }, \
     { "gp.ta.version", USER_TA_PROP_TYPE_U32, &(const uint32_t){ 0x0010 } }
 
 #endif /* USER_TA_HEADER_DEFINES_H */

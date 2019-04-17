@@ -1,4 +1,4 @@
-###################### optee-hello-world ######################
+###################### RT-IO-Sec ######################
 LOCAL_PATH := $(call my-dir)
 
 OPTEE_CLIENT_EXPORT = $(LOCAL_PATH)/../../optee_client/out/export
@@ -13,7 +13,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/ta/include \
 		$(OPTEE_CLIENT_EXPORT)/include \
 
 LOCAL_SHARED_LIBRARIES := libteec
-LOCAL_MODULE := optee_example_hello_world
+LOCAL_MODULE := rt_io_sec_client
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_EXECUTABLE)
 

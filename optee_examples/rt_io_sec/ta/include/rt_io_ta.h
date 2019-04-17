@@ -24,8 +24,10 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-#ifndef TA_HELLO_WORLD_H
-#define TA_HELLO_WORLD_H
+
+
+#ifndef __RT_IO_TA_H__
+#define __RT_IO_TA_H__
 
 
 /*
@@ -42,4 +44,4 @@
 #define TA_HELLO_WORLD_CMD_INC_VALUE		0
 #define TA_HELLO_WORLD_CMD_DEC_VALUE		1
 
-#endif /*TA_HELLO_WORLD_H*/
+#endif /*__RT_IO_TA_H__*/
