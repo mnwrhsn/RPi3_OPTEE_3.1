@@ -40,6 +40,8 @@ sudo cp -r $LOC  rootfs/bin/
 
 # copy TA files
 LOC="$OPTEE_ROOT/optee_examples/out/ta/*"
+# create directory if doesn't exist
+sudo mkdir rootfs/lib/optee_armtz/
 sudo cp -r $LOC rootfs/lib/optee_armtz/
 
 echo "Unmounting filesystem..."
