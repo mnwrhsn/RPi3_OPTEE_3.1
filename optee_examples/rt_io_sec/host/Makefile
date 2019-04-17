@@ -9,8 +9,10 @@ READELF = $(CROSS_COMPILE)readelf
 OBJS = main.o
 
 CFLAGS += -Wall -I../ta/include -I$(TEEC_EXPORT)/include -I./include
+# CFLAGS += -fPIC -shared  # for shared library
 #Add/link other required libraries here
 LDADD += -lteec -L$(TEEC_EXPORT)/lib
+LDADD += -fPIC -shared  # for shared library
 
 BINARY = rt_io_sec_client
 
