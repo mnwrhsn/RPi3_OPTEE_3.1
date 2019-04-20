@@ -3,7 +3,8 @@
 
 First, burn the official Ubunut 64 bit image to micro sd card and see if RPi3 boots. Image Name/Link:
 
---> ubuntu-18.04.2-preinstalled-server-arm64+raspi3.img.xz
+`ubuntu-18.04.2-preinstalled-server-arm64+raspi3.img.xz`
+
 https://wiki.ubuntu.com/ARM/RaspberryPi
 
 
