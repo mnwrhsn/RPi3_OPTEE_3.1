@@ -27,3 +27,7 @@ make -j `nproc`
 See the details in OPTEE Guide: https://optee.readthedocs.io/building/gits/build.html#build
 
 3. Run check `copy_to_sdcard.sh` for details of copying the compiled code to Raspberry Pi
+
+
+##### Note: External interface say I2C/SPI etc not working due to the U-Boot version used in this repo. See the issue:
+https://github.com/OP-TEE/optee_os/issues/2957
