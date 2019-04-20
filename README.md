@@ -1,5 +1,13 @@
 
-Implementation of I/O-Peripheral Security for RTS
+####A Working copy of TrustZone (OPTEE 3.1.0) using Debian (Ubuntu) 64 bit FileSystem.
+
+First, burn the official Ubunut 64 bit image to micro sd card and see if RPi3 boots. Image Name/Link:
+
+--> ubuntu-18.04.2-preinstalled-server-arm64+raspi3.img.xz
+https://wiki.ubuntu.com/ARM/RaspberryPi
+
+
+In the host machine: 
 
 1. Download toolchains for build:
 
