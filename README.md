@@ -1,5 +1,5 @@
 
-####A Working copy of TrustZone (OPTEE 3.1.0) using Debian (Ubuntu) 64 bit FileSystem.
+#### A Working copy of TrustZone (OPTEE 3.1.0) using Debian (Ubuntu) 64 bit FileSystem.
 
 First, burn the official Ubunut 64 bit image to micro sd card and see if RPi3 boots. Image Name/Link:
 
